@@ -1,0 +1,74 @@
+@font-face { /* The "@font-face" rule embeds customs fonts downloaded by the developer. */
+  font-family: 'ANDYB';
+  src: url(ANDYB.TTF);
+}
+body { /* The "body" rule deines all visual content in the  HTML webpage linked. */
+  font-family: 'ANDYB';
+  background-color: rgb(144, 213, 255);
+  margin: 0;
+}
+.topnav p {
+  font-size: 30px;
+  background-color: rgb(126, 217, 71);
+  padding: 20px 25px;
+}
+h1 { /* The "h1" rule defines all "<h1>" tags in the HTML webpage linked. */
+  font-size: 70px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+h2 { /* The "h2" rule defines all "<h2>" tags in the HTML webpage linked. */
+  margin-top: 0;
+  font-weight: normal;
+}
+.topnav img {
+  margin-left: 3%;
+  margin-right: 1.5%;
+  vertical-align: middle;
+  height: 40px;
+}
+img { /* The "img" rule defines all "<img>" tags in the HTML webpage linked. */
+  vertical-align: bottom;
+}
+.topnav a {
+  text-decoration: none;
+}
+.topnav a:hover {
+  color: red;
+  text-decoration: underline;
+}
+a { /* The "a" rule defines all "<a>" tags in the HTML webpage linked. */
+  text-decoration: none;
+  color: black;
+}
+button { /* The "button" rule defines all "<button>" tags in the HTML webpage linked. */
+  font-family: "ANDYB";
+  background-color: rgb(131, 101, 57);
+  margin: 55px 30px;
+  font-size: 40px;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  border: none;
+  width: 480px;
+} 
+.pagebuttons img {
+  float: left;
+}
+button:hover {
+  background-color: rgb(118, 91, 51);
+}
+.homepage {
+  position: fixed;
+}
+.left {
+  width: 65%;
+}
+.right {
+  width: 34%;
+  right: 0;
+  top: 13%;
+}
+.right img {
+  border-radius: 20px;
+}
