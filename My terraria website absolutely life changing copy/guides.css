@@ -1,0 +1,94 @@
+@font-face { /* The "@font-face" rule embeds customs fonts downloaded by the developer. */
+    font-family: 'ANDYB';
+    src: url(ANDYB.TTF);
+}
+html { /* The "html" rule a targets the root directory (or the enitrety) of the webpage. */
+    scroll-behavior: smooth;
+}
+body { /* The "body" rule deines all visual content in the  HTML webpage linked. */
+    margin: 0;
+    font-family: 'ANDYB';
+    background-image: url('images/forestbackground.webp');
+    background-size: 25%;
+    background-color: rgb(144, 213, 255);
+}
+.topguidebar {
+    position: relative;
+}
+button { /* The "button" rule defines all "<button>" tags in the HTML webpage linked. */
+    font-family: 'ANDYB';
+    width: 350px;
+    height: 100px;
+    background-color: rgb(126, 217, 71);
+    border: none;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(113, 195, 64);
+}
+#topleft {
+    position: absolute;
+    top: 13%;
+    left: 2%;
+}
+#bottomleft {
+    position: absolute;
+    top: 55%;
+    left: 2%;
+}
+#topright {
+    position: absolute;
+    top: 13%;
+    left: 77%;
+}
+#home {
+    position: absolute;
+    top: 55%;
+    left: 77%;
+}
+.topguidebar h1 {
+    position: absolute;
+    color: red;
+    top: 12%;
+    left: 45%;
+    font-size: 48px;
+    font-weight: normal;
+}
+.topguidebar a {
+    text-decoration: none;
+    color: red;
+}
+.contents {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 0px 10px;
+    width: 190px;
+    background-color: lightskyblue;
+}
+
+.contents p {
+    margin-left: 25px;
+    line-height: 50%;
+}
+a:hover { /* The pseudo-class ":hover" matches the condition when the user is hovering over the element. */
+    color: red;
+}
+#topbutton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    width: 100px;
+    border-radius: 100%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+h1, h2 { /* The "h1, h2" rule defines all "<h1>" and "<h2>" tags in the HTML webpage linked. */
+    margin-bottom: 0;
+}
+hr { /* The "hr" rule defines all "<hr>" tags in the HTML webpage linked. */
+    color: rgb(144, 213, 255);
+    margin-top: 0;
+}
